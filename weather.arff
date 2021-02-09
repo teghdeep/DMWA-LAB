@@ -1,23 +1,28 @@
-@relation weather
+@relation 'weather-weka.filters.unsupervised.attribute.Add-TDAT-Ndate-Clast-W1.0-weka.filters.unsupervised.attribute.Remove-R4,5-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-unset-class-temporarily-weka.filters.unsupervised.attribute.Reorder-R2,3,4,1'
 
-@attribute outlook {sunny, overcast, rainy}
-@attribute temperature real
-@attribute humidity real
-@attribute windy {TRUE, FALSE}
-@attribute play {yes, no}
+
+@attribute temperature numeric
+
+@attribute humidity numeric
+
+@attribute date date 'yyyy-MM-dd\'T\'HH:mm:ss'
+
+@attribute outlook {sunny,overcast,rainy}
+
 
 @data
-sunny,85,85,FALSE,no
-sunny,80,90,TRUE,no
-overcast,83,86,FALSE,yes
-rainy,70,96,FALSE,yes
-rainy,68,80,FALSE,yes
-rainy,65,70,TRUE,no
-overcast,64,65,TRUE,yes
-sunny,72,95,FALSE,no
-sunny,69,70,FALSE,yes
-rainy,75,80,FALSE,yes
-sunny,75,70,TRUE,yes
-overcast,72,90,TRUE,yes
-overcast,81,75,FALSE,yes
-rainy,71,91,TRUE,no
+
+1,0.645161,?,sunny
+0.761905,0.806452,?,sunny
+0.904762,0.677419,?,overcast
+0.285714,1,?,rainy
+0.190476,0.483871,?,rainy
+0.047619,0.16129,?,rainy
+0,0,?,overcast
+0.380952,0.967742,?,sunny
+0.238095,0.16129,?,sunny
+0.52381,0.483871,?,rainy
+0.52381,0.16129,?,sunny
+0.380952,0.806452,?,overcast
+0.809524,0.322581,?,overcast
+0.333333,0.83871,?,rainy
