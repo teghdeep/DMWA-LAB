@@ -1,0 +1,25 @@
+@relation test
+
+@attribute color {yellow, green}
+@attribute size {small, large}
+@attribute shape {round, irregular}
+@attribute edible {+, -}
+
+@data
+yellow,small,round,+
+yellow,small,round,-
+green,small,irregular,+
+green,large,irregular,-
+yellow,large,round,+
+yellow,small,round,+
+yellow,small,round,+
+yellow,small,round,+
+green,small,round,-
+yellow,large,round,-
+yellow,large,round,+
+yellow,large,round,-
+yellow,large,round,-
+yellow,large,round,-
+yellow,small,irregular,+
+yellow,large,irregular,+
+

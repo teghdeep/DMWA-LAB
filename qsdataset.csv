@@ -1,0 +1,11 @@
+Tid,Refund,Martial Status,Taxable Income,Evade
+1,yes,single,125k,no
+2,no,married,100k,no
+3,no,single,70k,no
+4,yes,married,120k,no
+5,no,divorced,95k,yes
+6,no,married,60k,no
+7,yes,divorced,220k,no
+8,no,single,85k,yes
+9,no,married,75k,no
+10,no,single,90k,yes
